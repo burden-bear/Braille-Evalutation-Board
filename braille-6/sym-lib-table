@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 0)
+  (lib (name "Braille Evaluation Board-eagle-import")(type "KiCad")(uri "${KIPRJMOD}/Braille Evaluation Board-eagle-import.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,208 @@
+(footprint "POWER_JACK_SLOT"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "DC Barrel Power Jack/Connector PTH Slot Pads Extended soldering pads.  5.5mm jack, 2.1mm center pole diameter\n\nSpecifications:\n\n• Pin count: 3\n\nDatasheet referenced for footprint\n\nExample device(s):\n\n• POWER_JACK")
+	(property "Reference" "REF**"
+		(at 3.5052 -2.159 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "d68cebaa-5032-4767-8024-43f381058bd8")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Value" "POWER_JACK_SLOT"
+		(at 3.175 -1.143 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "eb0202c7-35ab-4372-a3f9-b544e81150c0")
+		(effects
+			(font
+				(size 0.48768 0.48768)
+				(thickness 0.12192)
+			)
+			(justify left bottom)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7eef32f6-0b1a-480a-a2a2-90a45caa2c72")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a8ef843e-907d-436f-8e11-1a5d339e22e2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(fp_line
+		(start 0.83 -12.7)
+		(end 0.83 -8.4)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "57a50df7-e4c6-4dd8-8469-57d1a30f346b")
+	)
+	(fp_line
+		(start 0.83 -6.51)
+		(end 0.83 -3.1)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6e3181ca-0602-4392-9359-2e251a8643a0")
+	)
+	(fp_line
+		(start 0.83 -3.1)
+		(end 9.33 -3.1)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "607d5124-06c8-4aec-ac63-3eb0b5449daa")
+	)
+	(fp_line
+		(start 9.33 -13.7)
+		(end 4.83 -13.7)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "a5a1a3c1-fc6a-4d66-96bc-b9a5e39b5a46")
+	)
+	(fp_line
+		(start 9.33 -3.1)
+		(end 9.28 -3.1)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "3293bc9b-36db-40bd-bcb9-a441a77c701b")
+	)
+	(fp_line
+		(start 9.33 -3.1)
+		(end 9.33 -13.7)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "dcf2477d-12b3-438b-b83c-6ead6fc33272")
+	)
+	(fp_line
+		(start 0.83 -13.7)
+		(end 0.83 -12.7)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f9253459-43bf-42b8-b2c8-16d935ba770b")
+	)
+	(fp_line
+		(start 0.83 -8.4)
+		(end 0.83 -6.55)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "c691e11a-b163-4440-af59-f990214d250a")
+	)
+	(fp_line
+		(start 0.83 -3.1)
+		(end 0.83 -0.1)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a2954c4d-b635-4ea5-af0e-486fced39db7")
+	)
+	(fp_line
+		(start 4.83 -13.7)
+		(end 0.83 -13.7)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "63f6df16-6686-4015-b758-adacdbd3311b")
+	)
+	(fp_line
+		(start 9.33 -0.1)
+		(end 0.83 -0.1)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "7efa072b-2014-4694-b4ad-ad29085e155e")
+	)
+	(fp_line
+		(start 9.33 -0.1)
+		(end 9.33 -3.1)
+		(stroke
+			(width 0.2032)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "2bc5fd10-d06c-4c61-8c36-1011f48dd9f3")
+	)
+	(pad "GND@1" thru_hole oval
+		(at 2.58 -7.5)
+		(size 4 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "b52cd13f-fe86-4fe7-aea1-a92c41e7a5f8")
+	)
+	(pad "GND@2" thru_hole oval
+		(at 7.58 -10.8 90)
+		(size 4 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "37ec396e-243e-405b-a098-31627cb94386")
+	)
+	(pad "PWR" thru_hole oval
+		(at 2.58 -13.8)
+		(size 4 2)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(solder_mask_margin 0.1016)
+		(thermal_bridge_angle 0)
+		(uuid "9fa9903e-94d6-4b58-ac5b-f9772b4a6545")
+	)
+	(embedded_fonts no)
+)
